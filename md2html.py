@@ -15,7 +15,6 @@ html_tail_file.close()
 
 html_body = ""
 
-# 所支持的复杂元素
 exts = ['markdown.extensions.extra', 'markdown.extensions.codehilite','markdown.extensions.tables','markdown.extensions.toc']
 # exts = ['markdown.extensions.extra', 'markdown.extensions.codehilite','markdown.extensions.tables','markdown.extensions.toc',MathExtension(enable_dollar_delimiter=True)]
 
@@ -36,4 +35,4 @@ for filename in os.listdir(file_dir):
         html_file.write(html)
         html_file.close()
         print("{}☑️".format(filename[:-3]))
-print("///// HTML fire Generated 🚀!!! /////")
+print("///// HTML fires Generated 🚀!!! /////")
